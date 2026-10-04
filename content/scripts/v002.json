@@ -1,0 +1,33 @@
+{
+  "id": "v002",
+  "judul": "Data Kotor Bukan Musuh",
+  "thumbnail": "Data Kotor Bukan Musuh",
+  "keyword": [
+    "data",
+    "kotor",
+    "diperiksa"
+  ],
+  "cta": "Kapan terakhir kamu benar-benar melihat isi datamu?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Semua orang ingin model yang pintar. Hampir tidak ada yang memeriksa datanya."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Masalahnya sering bukan di algoritma. Masalahnya di baris data yang kosong, ganda, dan formatnya campur. Model paling canggih tetap akan salah kalau bahannya salah."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Membangun model dengan data kotor itu seperti memasak dengan bahan yang belum dicuci. Bumbunya lengkap. Kompornya bagus. Tapi rasanya tetap aneh, dan kamu tidak tahu bagian mana yang salah."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Buka satu file data hari ini. Periksa dua puluh baris pertama, lalu catat tiga kejanggalan yang kamu temukan."
+    }
+  ]
+}

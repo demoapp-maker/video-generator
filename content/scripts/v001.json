@@ -1,0 +1,34 @@
+{
+  "id": "v001",
+  "judul": "Belajar AI Tanpa Tujuan",
+  "thumbnail": "Belajar AI Tanpa Tujuan",
+  "keyword": [
+    "AI",
+    "tujuan",
+    "alat"
+  ],
+  "cta": "Minggu ini, masalah apa yang paling sering kamu ulang?",
+  "catatanProduksi": "Contoh acuan gaya. Bandingkan dengan prompts/02-script-writer.md sebelum menulis script baru.",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Banyak orang belajar AI setiap hari, tapi tetap bingung harus mulai dari mana."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Masalahnya bukan kurang materi. Masalahnya, belum ada satu masalah nyata yang sedang kamu coba selesaikan."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Belajar AI tanpa tujuan itu seperti membeli banyak alat pertukangan. Gergaji, bor, palu, semuanya bagus. Tapi kalau belum tahu mau membangun apa, itu cuma tumpukan barang."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Mulai dari sebaliknya. Pilih satu masalah yang kamu ulang setiap minggu. Lalu cari satu alat AI yang memotong waktunya. Satu masalah, satu alat, satu minggu."
+    }
+  ]
+}

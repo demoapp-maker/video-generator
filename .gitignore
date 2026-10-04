@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+.remotion/
+.browser/
+public/
+out/
+*.log
+.DS_Store
+.env
+.env.local

@@ -1,0 +1,33 @@
+{
+  "id": "v005",
+  "judul": "Catatan Yang Tidak Dibaca Ulang",
+  "thumbnail": "Catatan Tanpa Label",
+  "keyword": [
+    "catatan",
+    "kategori",
+    "ditemukan"
+  ],
+  "cta": "Catatan mana yang kamu simpan tapi tak pernah dibuka?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Menulis catatan terasa produktif. Membaca ulang terasa membosankan."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Catatan yang tidak bisa ditemukan lagi berubah jadi pajak waktu, bukan aset. Kamu menulis ulang dari nol, karena yang lama sudah hilang. Waktu menulis ulang itu tidak kembali."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Seperti gudang penuh barang tanpa label. Isinya ada. Tapi tidak ada yang berani mencari, karena tahu akan lama. Kamu akhirnya beli barang baru, padahal yang lama masih tersimpan di dalam."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Beri satu kategori pada sepuluh catatan terakhir. Supaya bisa ditemukan tanpa mengingat judulnya."
+    }
+  ]
+}

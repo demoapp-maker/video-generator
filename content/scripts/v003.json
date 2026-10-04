@@ -1,0 +1,33 @@
+{
+  "id": "v003",
+  "judul": "Otomatisasi Sebelum Rapi",
+  "thumbnail": "Jangan Otomatiskan Kekacauan",
+  "keyword": [
+    "otomatisasi",
+    "proses",
+    "rapi"
+  ],
+  "cta": "Proses mana yang kamu otomatiskan sebelum benar-benar paham?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Banyak orang mengotomatiskan proses yang bahkan belum mereka pahami."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Automasi mempercepat apa pun yang ada. Termasuk kekacauannya. Yang tadinya salah sekali sehari, jadi salah seratus kali sehari. Dan kamu tidak akan menyadarinya lebih cepat."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Mengotomatiskan proses yang belum rapi itu seperti memberi remote ke televisi yang belum dipasang. Tombolnya berfungsi. Tapi tidak ada yang bisa ditonton. Kamu cuma jadi lebih cepat kecewa."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Tulis dulu langkah manualnya. Baru otomatiskan satu langkah yang paling membosankan."
+    }
+  ]
+}
