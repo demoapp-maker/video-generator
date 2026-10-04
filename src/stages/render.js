@@ -18,9 +18,38 @@ import {loadTimeline} from "./plan.js";
 
 const bundleDir = path.join(paths.root, ".cache", "remotion-bundle");
 
+/**
+ * Waktu perubahan terbaru di dalam sebuah folder (rekursif).
+ * Remotion menyalin folder aset ke dalam bundel saat bundling, jadi kalau ada
+ * berkas aset yang lebih baru daripada bundel, bundel itu sudah basi — audio
+ * baru atau gambar host baru akan 404 walaupun berkasnya ada di disk.
+ */
+const waktuAsetTerbaru = (dir) => {
+  if (!fs.existsSync(dir)) return 0;
+  let terbaru = 0;
+  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      terbaru = Math.max(terbaru, waktuAsetTerbaru(full));
+    } else {
+      terbaru = Math.max(terbaru, fs.statSync(full).mtimeMs);
+    }
+  }
+  return terbaru;
+};
+
 const getServeUrl = async (force = false) => {
-  if (!force && fs.existsSync(path.join(bundleDir, "index.html"))) return bundleDir;
-  console.log("Menyusun bundel Remotion...");
+  const indexBundel = path.join(bundleDir, "index.html");
+  const adaBundel = fs.existsSync(indexBundel);
+
+  if (!force && adaBundel) {
+    const waktuBundel = fs.statSync(indexBundel).mtimeMs;
+    if (waktuAsetTerbaru(paths.assets) <= waktuBundel) return bundleDir;
+    console.log("Aset lebih baru daripada bundel — menyusun ulang bundel Remotion...");
+  } else {
+    console.log("Menyusun bundel Remotion...");
+  }
+
   return bundle({
     entryPoint: paths.remotionEntry,
     publicDir: paths.assets,

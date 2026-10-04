@@ -1,0 +1,260 @@
+{
+  "id": "v002",
+  "judul": "Data Kotor Bukan Musuh",
+  "handle": "@rohadi",
+  "tagline": "Catatan belajar teknologi",
+  "thumbnail": "Data Kotor Bukan Musuh",
+  "cta": "Kapan terakhir kamu benar-benar melihat isi datamu?",
+  "keywords": [
+    "data",
+    "kotor",
+    "diperiksa"
+  ],
+  "host": {
+    "type": "image",
+    "src": "host/v002.png"
+  },
+  "captions": [
+    {
+      "from": 0,
+      "to": 69,
+      "text": "Semua orang ingin model yang pintar.",
+      "lines": [
+        "Semua orang ingin model",
+        "yang pintar."
+      ],
+      "segment": 0,
+      "keyword": false
+    },
+    {
+      "from": 69,
+      "to": 146,
+      "text": "Hampir tidak ada yang memeriksa datanya.",
+      "lines": [
+        "Hampir tidak ada yang",
+        "memeriksa datanya."
+      ],
+      "segment": 0,
+      "keyword": false
+    },
+    {
+      "from": 155,
+      "to": 221,
+      "text": "Masalahnya sering bukan di algoritma.",
+      "lines": [
+        "Masalahnya sering bukan di",
+        "algoritma."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 221,
+      "to": 307,
+      "text": "Masalahnya di baris data yang kosong, ganda, dan",
+      "lines": [
+        "Masalahnya di baris data",
+        "yang kosong, ganda, dan"
+      ],
+      "segment": 1,
+      "keyword": true
+    },
+    {
+      "from": 307,
+      "to": 337,
+      "text": "formatnya campur.",
+      "lines": [
+        "formatnya campur."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 337,
+      "to": 431,
+      "text": "Model paling canggih tetap akan salah kalau bahannya",
+      "lines": [
+        "Model paling canggih tetap",
+        "akan salah kalau bahannya"
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 431,
+      "to": 441,
+      "text": "salah.",
+      "lines": [
+        "salah."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 450,
+      "to": 535,
+      "text": "Membangun model dengan data kotor itu seperti",
+      "lines": [
+        "Membangun model dengan",
+        "data kotor itu seperti"
+      ],
+      "segment": 2,
+      "keyword": true
+    },
+    {
+      "from": 535,
+      "to": 609,
+      "text": "memasak dengan bahan yang belum dicuci.",
+      "lines": [
+        "memasak dengan bahan yang",
+        "belum dicuci."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 609,
+      "to": 641,
+      "text": "Bumbunya lengkap.",
+      "lines": [
+        "Bumbunya lengkap."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 641,
+      "to": 671,
+      "text": "Kompornya bagus.",
+      "lines": [
+        "Kompornya bagus."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 671,
+      "to": 768,
+      "text": "Tapi rasanya tetap aneh, dan kamu tidak tahu bagian",
+      "lines": [
+        "Tapi rasanya tetap aneh,",
+        "dan kamu tidak tahu bagian"
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 768,
+      "to": 798,
+      "text": "mana yang salah.",
+      "lines": [
+        "mana yang salah."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 807,
+      "to": 865,
+      "text": "Buka satu file data hari ini.",
+      "lines": [
+        "Buka satu file data hari",
+        "ini."
+      ],
+      "segment": 3,
+      "keyword": true
+    },
+    {
+      "from": 865,
+      "to": 960,
+      "text": "Periksa dua puluh baris pertama, lalu catat tiga",
+      "lines": [
+        "Periksa dua puluh baris",
+        "pertama, lalu catat tiga"
+      ],
+      "segment": 3,
+      "keyword": false
+    },
+    {
+      "from": 960,
+      "to": 1020,
+      "text": "kejanggalan yang kamu temukan.",
+      "lines": [
+        "kejanggalan yang kamu",
+        "temukan."
+      ],
+      "segment": 3,
+      "keyword": false
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "bagian": "hook",
+      "label": "HOOK",
+      "from": 0,
+      "to": 146,
+      "audio": "audio/v002/s1.wav",
+      "narration": "Semua orang ingin model yang pintar. Hampir tidak ada yang memeriksa datanya."
+    },
+    {
+      "index": 1,
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "from": 155,
+      "to": 441,
+      "audio": "audio/v002/s2.wav",
+      "narration": "Masalahnya sering bukan di algoritma. Masalahnya di baris data yang kosong, ganda, dan formatnya campur. Model paling canggih tetap akan salah kalau bahannya salah."
+    },
+    {
+      "index": 2,
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "from": 450,
+      "to": 798,
+      "audio": "audio/v002/s3.wav",
+      "narration": "Membangun model dengan data kotor itu seperti memasak dengan bahan yang belum dicuci. Bumbunya lengkap. Kompornya bagus. Tapi rasanya tetap aneh, dan kamu tidak tahu bagian mana yang salah."
+    },
+    {
+      "index": 3,
+      "bagian": "action",
+      "label": "AKSI",
+      "from": 807,
+      "to": 1020,
+      "audio": "audio/v002/s4.wav",
+      "narration": "Buka satu file data hari ini. Periksa dua puluh baris pertama, lalu catat tiga kejanggalan yang kamu temukan."
+    }
+  ],
+  "audio": [
+    {
+      "src": "audio/v002/s1.wav",
+      "from": 0,
+      "durationInFrames": 146
+    },
+    {
+      "src": "audio/v002/s2.wav",
+      "from": 155,
+      "durationInFrames": 286
+    },
+    {
+      "src": "audio/v002/s3.wav",
+      "from": 450,
+      "durationInFrames": 349
+    },
+    {
+      "src": "audio/v002/s4.wav",
+      "from": 807,
+      "durationInFrames": 213
+    }
+  ],
+  "totalFrames": 1062,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": {
+    "accent": "#F2B441",
+    "accentSoft": "rgba(242,180,65,0.16)",
+    "ink": "#0E0F13",
+    "paper": "#F7F4EE"
+  }
+}

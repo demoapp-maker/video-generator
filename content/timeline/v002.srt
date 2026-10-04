@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:02,312
+Semua orang ingin model yang pintar.
+
+2
+00:00:02,312 --> 00:00:04,880
+Hampir tidak ada yang memeriksa datanya.
+
+3
+00:00:05,160 --> 00:00:07,368
+Masalahnya sering bukan di algoritma.
+
+4
+00:00:07,368 --> 00:00:10,233
+Masalahnya di baris data yang kosong, ganda, dan
+
+5
+00:00:10,233 --> 00:00:11,248
+formatnya campur.
+
+6
+00:00:11,248 --> 00:00:14,352
+Model paling canggih tetap akan salah kalau bahannya
+
+7
+00:00:14,352 --> 00:00:14,710
+salah.
+
+8
+00:00:14,990 --> 00:00:17,832
+Membangun model dengan data kotor itu seperti
+
+9
+00:00:17,832 --> 00:00:20,295
+memasak dengan bahan yang belum dicuci.
+
+10
+00:00:20,295 --> 00:00:21,368
+Bumbunya lengkap.
+
+11
+00:00:21,368 --> 00:00:22,379
+Kompornya bagus.
+
+12
+00:00:22,379 --> 00:00:25,600
+Tapi rasanya tetap aneh, dan kamu tidak tahu bagian
+
+13
+00:00:25,600 --> 00:00:26,610
+mana yang salah.
+
+14
+00:00:26,890 --> 00:00:28,817
+Buka satu file data hari ini.
+
+15
+00:00:28,817 --> 00:00:32,006
+Periksa dua puluh baris pertama, lalu catat tiga
+
+16
+00:00:32,006 --> 00:00:33,1000
+kejanggalan yang kamu temukan.

@@ -86,10 +86,19 @@ export const chunkCaption = (text, maxKarakterPerBaris = 26, maxBaris = 2) => {
   for (let i = 0; i < lines.length; i += maxBaris) {
     const isLast = i + maxBaris >= lines.length;
     const bagian = lines.slice(i, i + maxBaris);
+    const sebelumnya = chunks[chunks.length - 1];
 
-    // Baris sisa yang pendek lebih enak digabung ke potongan sebelumnya.
-    if (isLast && bagian.length === 1 && chunks.length && bagian[0].length <= maxKarakterPerBaris / 2) {
-      chunks[chunks.length - 1].push(bagian[0]);
+    // Baris sisa yang pendek lebih enak digabung ke potongan sebelumnya —
+    // tapi hanya kalau potongan itu masih punya ruang. Tanpa pemeriksaan ini,
+    // penggabungan bisa menghasilkan tiga baris di satu potongan.
+    if (
+      isLast &&
+      bagian.length === 1 &&
+      sebelumnya &&
+      sebelumnya.length < maxBaris &&
+      bagian[0].length <= maxKarakterPerBaris / 2
+    ) {
+      sebelumnya.push(bagian[0]);
       continue;
     }
     chunks.push(bagian);
