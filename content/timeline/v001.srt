@@ -19,29 +19,37 @@ Masalahnya, belum ada satu masalah nyata yang sedang
 kamu coba selesaikan.
 
 6
-00:00:11,590 --> 00:00:14,637
+00:00:11,590 --> 00:00:14,671
 Belajar AI tanpa tujuan itu seperti membeli banyak
 
 7
-00:00:14,637 --> 00:00:17,440
-alat pertukangan tanpa tahu mau membangun apa.
+00:00:14,671 --> 00:00:15,718
+alat pertukangan.
 
 8
-00:00:17,440 --> 00:00:19,573
+00:00:15,718 --> 00:00:17,875
 Gergaji, bor, palu, semuanya bagus.
 
 9
-00:00:19,573 --> 00:00:22,620
-Tapi tanpa rencana, itu cuma jadi tumpukan barang.
+00:00:17,875 --> 00:00:20,894
+Tapi kalau belum tahu mau membangun apa, itu cuma
 
 10
-00:00:22,900 --> 00:00:24,306
-Mulai dari sebaliknya.
+00:00:20,894 --> 00:00:21,880
+tumpukan barang.
 
 11
-00:00:24,306 --> 00:00:27,439
-Pilih satu masalah yang kamu ulang setiap minggu,
+00:00:22,160 --> 00:00:23,609
+Mulai dari sebaliknya.
 
 12
-00:00:27,439 --> 00:00:30,380
-lalu cari satu alat AI yang memotong waktunya.
+00:00:23,609 --> 00:00:26,835
+Pilih satu masalah yang kamu ulang setiap minggu.
+
+13
+00:00:26,835 --> 00:00:29,864
+Lalu cari satu alat AI yang memotong waktunya.
+
+14
+00:00:29,864 --> 00:00:32,300
+Satu masalah, satu alat, satu minggu.

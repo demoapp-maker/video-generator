@@ -1,20 +1,20 @@
 {
   "id": "v001",
-  "dibuat": "2026-10-04T00:24:20.857Z",
+  "dibuat": "2026-10-04T11:09:53.127Z",
   "script": "content/scripts/v001.json",
   "durasi": {
-    "narasiDetik": 30.38,
-    "totalDetik": 31.78,
+    "narasiDetik": 32.3,
+    "totalDetik": 33.7,
     "perSegmen": [
       5.03,
       6,
-      11.03,
-      7.48
+      10.29,
+      10.14
     ],
     "fps": 30,
-    "totalFrames": 953
+    "totalFrames": 1011
   },
-  "jumlahKata": 75,
+  "jumlahKata": 79,
   "peringatan": [],
   "props": {
     "id": "v001",
@@ -89,7 +89,7 @@
       },
       {
         "from": 348,
-        "to": 439,
+        "to": 440,
         "text": "Belajar AI tanpa tujuan itu seperti membeli banyak",
         "lines": [
           "Belajar AI tanpa tujuan",
@@ -99,19 +99,18 @@
         "keyword": true
       },
       {
-        "from": 439,
-        "to": 523,
-        "text": "alat pertukangan tanpa tahu mau membangun apa.",
+        "from": 440,
+        "to": 472,
+        "text": "alat pertukangan.",
         "lines": [
-          "alat pertukangan tanpa",
-          "tahu mau membangun apa."
+          "alat pertukangan."
         ],
         "segment": 2,
         "keyword": true
       },
       {
-        "from": 523,
-        "to": 587,
+        "from": 472,
+        "to": 536,
         "text": "Gergaji, bor, palu, semuanya bagus.",
         "lines": [
           "Gergaji, bor, palu,",
@@ -121,19 +120,29 @@
         "keyword": false
       },
       {
-        "from": 587,
-        "to": 679,
-        "text": "Tapi tanpa rencana, itu cuma jadi tumpukan barang.",
+        "from": 536,
+        "to": 627,
+        "text": "Tapi kalau belum tahu mau membangun apa, itu cuma",
         "lines": [
-          "Tapi tanpa rencana, itu",
-          "cuma jadi tumpukan barang."
+          "Tapi kalau belum tahu mau",
+          "membangun apa, itu cuma"
         ],
         "segment": 2,
         "keyword": false
       },
       {
-        "from": 687,
-        "to": 729,
+        "from": 627,
+        "to": 656,
+        "text": "tumpukan barang.",
+        "lines": [
+          "tumpukan barang."
+        ],
+        "segment": 2,
+        "keyword": false
+      },
+      {
+        "from": 665,
+        "to": 708,
         "text": "Mulai dari sebaliknya.",
         "lines": [
           "Mulai dari sebaliknya."
@@ -142,23 +151,34 @@
         "keyword": false
       },
       {
-        "from": 729,
-        "to": 823,
-        "text": "Pilih satu masalah yang kamu ulang setiap minggu,",
+        "from": 708,
+        "to": 805,
+        "text": "Pilih satu masalah yang kamu ulang setiap minggu.",
         "lines": [
           "Pilih satu masalah yang",
-          "kamu ulang setiap minggu,"
+          "kamu ulang setiap minggu."
         ],
         "segment": 3,
         "keyword": false
       },
       {
-        "from": 823,
-        "to": 911,
-        "text": "lalu cari satu alat AI yang memotong waktunya.",
+        "from": 805,
+        "to": 896,
+        "text": "Lalu cari satu alat AI yang memotong waktunya.",
         "lines": [
-          "lalu cari satu alat AI",
+          "Lalu cari satu alat AI",
           "yang memotong waktunya."
+        ],
+        "segment": 3,
+        "keyword": true
+      },
+      {
+        "from": 896,
+        "to": 969,
+        "text": "Satu masalah, satu alat, satu minggu.",
+        "lines": [
+          "Satu masalah, satu alat,",
+          "satu minggu."
         ],
         "segment": 3,
         "keyword": true
@@ -188,18 +208,18 @@
         "bagian": "analogi",
         "label": "ANALOGI",
         "from": 348,
-        "to": 679,
+        "to": 656,
         "audio": "audio/v001/s3.wav",
-        "narration": "Belajar AI tanpa tujuan itu seperti membeli banyak alat pertukangan tanpa tahu mau membangun apa. Gergaji, bor, palu, semuanya bagus. Tapi tanpa rencana, itu cuma jadi tumpukan barang."
+        "narration": "Belajar AI tanpa tujuan itu seperti membeli banyak alat pertukangan. Gergaji, bor, palu, semuanya bagus. Tapi kalau belum tahu mau membangun apa, itu cuma tumpukan barang."
       },
       {
         "index": 3,
         "bagian": "action",
         "label": "AKSI",
-        "from": 687,
-        "to": 911,
+        "from": 665,
+        "to": 969,
         "audio": "audio/v001/s4.wav",
-        "narration": "Mulai dari sebaliknya. Pilih satu masalah yang kamu ulang setiap minggu, lalu cari satu alat AI yang memotong waktunya."
+        "narration": "Mulai dari sebaliknya. Pilih satu masalah yang kamu ulang setiap minggu. Lalu cari satu alat AI yang memotong waktunya. Satu masalah, satu alat, satu minggu."
       }
     ],
     "audio": [
@@ -216,15 +236,15 @@
       {
         "src": "audio/v001/s3.wav",
         "from": 348,
-        "durationInFrames": 331
+        "durationInFrames": 309
       },
       {
         "src": "audio/v001/s4.wav",
-        "from": 687,
-        "durationInFrames": 224
+        "from": 665,
+        "durationInFrames": 304
       }
     ],
-    "totalFrames": 953,
+    "totalFrames": 1011,
     "fps": 30,
     "width": 1080,
     "height": 1920,

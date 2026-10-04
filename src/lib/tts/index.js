@@ -13,7 +13,7 @@ import path from "node:path";
 import {execFile} from "node:child_process";
 import {promisify} from "node:util";
 import {brand, paths, runtime} from "../../config.js";
-import {ensureDir, findFirst, listFiles} from "../fsx.js";
+import {ensureDir, exists, findFirst, listFiles} from "../fsx.js";
 import {ttsSafe} from "../text.js";
 import {synthesizePlaceholder} from "./wav.js";
 
@@ -158,17 +158,38 @@ export const getProvider = (name) => {
 /**
  * Memilih provider:
  *   1. yang diminta eksplisit,
- *   2. kalau semua berkas segmen sudah ada → manual (pakai yang ada, jangan timpa),
- *   3. kalau belum ada → provider default di config/brand.json.
+ *   2. kalau semua berkas segmen sudah ada DAN lebih baru dari script → manual
+ *      (pakai audio yang ada, jangan timpa hasil Pocket TTS),
+ *   3. kalau audio belum ada atau sudah basi (script diubah setelah audio dibuat)
+ *      → provider default di config/brand.json.
+ *
+ * Tanpa pemeriksaan usia berkas, mengedit narasi lalu menjalankan
+ * `npm run produce` akan memakai audio lama yang isinya sudah tidak cocok.
  */
-const pilihProvider = (id, segments, provider) => {
-  if (provider) return provider;
-  const lengkap = segments.every((_, i) => Boolean(findSegmentAudio(id, i + 1)));
-  if (lengkap) return "manual";
-  return brand.tts?.provider ?? "placeholder";
+const audioBasi = (id, scriptFile) => {
+  if (!scriptFile || !exists(scriptFile)) return false;
+  const scriptWaktu = fs.statSync(scriptFile).mtimeMs;
+  const audioWaktu = AUDIO_EXT.map((ext) => path.join(audioDirFor(id), `s1${ext}`))
+    .filter((f) => exists(f))
+    .reduce((terbaru, f) => Math.max(terbaru, fs.statSync(f).mtimeMs), 0);
+  return audioWaktu > 0 && scriptWaktu > audioWaktu + 1000;
 };
 
-export const synthesize = async ({id, segments, provider}) => {
-  const chosen = pilihProvider(id, segments, provider);
+const pilihProvider = (id, segments, provider, scriptFile) => {
+  if (provider) return provider;
+  const lengkap = segments.every((_, i) => Boolean(findSegmentAudio(id, i + 1)));
+  if (!lengkap) return brand.tts?.provider ?? "placeholder";
+  if (audioBasi(id, scriptFile)) {
+    console.log(
+      "Catatan: script lebih baru daripada audio narasi, jadi audio lama dianggap basi\n" +
+        "         dan akan dibuat ulang. Pakai --provider=manual kalau memang ingin memakai audio lama.",
+    );
+    return brand.tts?.provider ?? "placeholder";
+  }
+  return "manual";
+};
+
+export const synthesize = async ({id, segments, provider, scriptFile}) => {
+  const chosen = pilihProvider(id, segments, provider, scriptFile);
   return getProvider(chosen).synthesize({id, segments});
 };

@@ -11,7 +11,7 @@ Repositori ini adalah **sistem produksi**, bukan kumpulan video lepas.
 | `content/ideas/` | Bank ide video (evergreen) |
 | `content/scripts/` | Script siap produksi (JSON + Markdown) |
 | `content/timeline/` | Hasil ukur durasi, props Remotion, subtitle `.srt` |
-| `assets/` | Font, gambar host, audio narasi |
+| `assets/` | Font, gambar host (termasuk variasi pose), audio narasi |
 | `src/` | Pipeline: IDE → SCRIPT → VOICE → HOST → PLAN → RENDER → DASHBOARD |
 | `remotion/` | Komposisi video 9:16: subtitle, branding, progress bar, end card |
 | `out/` | Hasil render (tidak di-commit) |
@@ -46,6 +46,8 @@ npm run doctor              # periksa kesiapan lingkungan
 npm run ideas               # bank ide + prompt ide harian
 npm run ideas:md            # ekspor bank ide ke Markdown
 npm run produce -- v001     # voice + host + plan + render
+npm run produce -- v003 --pose=menjelaskan   # pakai variasi pose host
+npm run list                # daftar script + perkiraan durasi
 npm run dashboard           # meja review: http://localhost:3210
 npm run daily               # produksi otomatis ide berikutnya
 npm run weekly              # laporan ritme produksi

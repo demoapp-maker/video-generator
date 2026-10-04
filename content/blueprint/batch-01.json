@@ -6,7 +6,11 @@
       "id": "v002",
       "judul": "Data Kotor Bukan Musuh",
       "thumbnail": "Data Kotor Bukan Musuh",
-      "keyword": ["data", "kotor", "diperiksa"],
+      "keyword": [
+        "data",
+        "kotor",
+        "diperiksa"
+      ],
       "cta": "Kapan terakhir kamu benar-benar melihat isi datamu?",
       "segments": [
         {
@@ -35,7 +39,11 @@
       "id": "v003",
       "judul": "Otomatisasi Sebelum Rapi",
       "thumbnail": "Jangan Otomatiskan Kekacauan",
-      "keyword": ["otomatisasi", "proses", "rapi"],
+      "keyword": [
+        "otomatisasi",
+        "proses",
+        "rapi"
+      ],
       "cta": "Proses mana yang kamu otomatiskan sebelum benar-benar paham?",
       "segments": [
         {
@@ -46,7 +54,7 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Automasi mempercepat apa pun yang ada. Termasuk kekacauannya. Yang tadinya salah sekali sehari, jadi salah seratus kali sehari."
+          "narasi": "Automasi mempercepat apa pun yang ada. Termasuk kekacauannya. Yang tadinya salah sekali sehari, jadi salah seratus kali sehari. Dan kamu tidak akan menyadarinya lebih cepat."
         },
         {
           "bagian": "analogi",
@@ -64,7 +72,11 @@
       "id": "v004",
       "judul": "Kapan Berhenti Menambah Alat",
       "thumbnail": "Berhenti Menambah Alat",
-      "keyword": ["alat", "perawatan", "keputusan"],
+      "keyword": [
+        "alat",
+        "perawatan",
+        "keputusan"
+      ],
       "cta": "Alat mana yang kamu simpan hanya karena sayang?",
       "segments": [
         {
@@ -75,7 +87,7 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Setiap alat baru menambah biaya perawatan. Dan biaya itu jarang dihitung di awal. Akhirnya waktu habis untuk menjaga alat, bukan memakainya."
+          "narasi": "Setiap alat baru menambah biaya perawatan. Dan biaya itu jarang dihitung di awal. Akhirnya waktu habis untuk menjaga alat, bukan memakainya. Alat yang tidak dipakai tetap menagih perhatian."
         },
         {
           "bagian": "analogi",
@@ -93,7 +105,11 @@
       "id": "v005",
       "judul": "Catatan Yang Tidak Dibaca Ulang",
       "thumbnail": "Catatan Tanpa Label",
-      "keyword": ["catatan", "kategori", "ditemukan"],
+      "keyword": [
+        "catatan",
+        "kategori",
+        "ditemukan"
+      ],
       "cta": "Catatan mana yang kamu simpan tapi tak pernah dibuka?",
       "segments": [
         {
@@ -104,7 +120,7 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Catatan yang tidak bisa ditemukan lagi berubah jadi pajak waktu, bukan aset. Kamu menulis ulang dari nol, karena yang lama sudah hilang."
+          "narasi": "Catatan yang tidak bisa ditemukan lagi berubah jadi pajak waktu, bukan aset. Kamu menulis ulang dari nol, karena yang lama sudah hilang. Waktu menulis ulang itu tidak kembali."
         },
         {
           "bagian": "analogi",
@@ -122,7 +138,11 @@
       "id": "v006",
       "judul": "Dashboard Yang Tidak Dipakai",
       "thumbnail": "Dashboard Yang Tidak Dipakai",
-      "keyword": ["dashboard", "metrik", "keputusan"],
+      "keyword": [
+        "dashboard",
+        "metrik",
+        "keputusan"
+      ],
       "cta": "Metrik mana yang tidak pernah mengubah keputusanmu?",
       "segments": [
         {
@@ -133,12 +153,12 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Metrik tidak berguna kalau tidak tersambung ke keputusan yang benar-benar diambil. Angka yang tidak mengubah tindakan cuma jadi hiasan. Lama-lama tidak ada yang melihatnya."
+          "narasi": "Metrik tidak berguna kalau tidak tersambung ke keputusan yang benar-benar diambil. Angka yang tidak mengubah tindakan cuma jadi hiasan. Lama-lama tidak ada yang melihatnya. Satu angka yang jelas lebih berguna daripada sepuluh angka yang samar."
         },
         {
           "bagian": "analogi",
           "label": "ANALOGI",
-          "narasi": "Seperti speedometer yang bagus, di mobil yang tidak pernah bisa berbelok. Angkanya akurat. Tapi tidak membantumu sampai tujuan."
+          "narasi": "Seperti speedometer yang bagus, di mobil yang tidak pernah bisa berbelok. Angkanya akurat. Tapi tidak membantumu sampai tujuan. Kamu menambah informasi, bukan arah."
         },
         {
           "bagian": "action",
@@ -151,7 +171,11 @@
       "id": "v007",
       "judul": "Model Sederhana Yang Dipakai",
       "thumbnail": "Model Sederhana Yang Dipakai",
-      "keyword": ["model", "sederhana", "dipakai"],
+      "keyword": [
+        "model",
+        "sederhana",
+        "dipakai"
+      ],
       "cta": "Kalau harus dijelaskan ke satu orang, apakah modelmu masih masuk akal?",
       "segments": [
         {
@@ -162,7 +186,7 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Yang menentukan bukan akurasi tertinggi. Yang menentukan seberapa besar orang percaya dan bisa menjelaskannya. Model yang tidak dipercaya tidak akan dipakai, seakurat apa pun hasilnya."
+          "narasi": "Yang menentukan bukan akurasi tertinggi. Yang menentukan seberapa besar orang percaya dan bisa menjelaskannya. Model yang tidak dipercaya tidak akan dipakai, seakurat apa pun hasilnya. Sederhana lebih mudah dipercaya, dan lebih mudah diperbaiki."
         },
         {
           "bagian": "analogi",
@@ -180,7 +204,11 @@
       "id": "v008",
       "judul": "Kursus Baru Bukan Selalu Jawaban",
       "thumbnail": "Kursus Bukan Selalu Jawaban",
-      "keyword": ["praktik", "kursus", "materi"],
+      "keyword": [
+        "praktik",
+        "kursus",
+        "materi"
+      ],
       "cta": "Materi apa yang sudah ditonton tapi belum pernah dikerjakan?",
       "segments": [
         {
@@ -196,7 +224,7 @@
         {
           "bagian": "analogi",
           "label": "ANALOGI",
-          "narasi": "Seperti membaca buku resep dari sampul ke sampul, tanpa pernah menyalakan kompor. Semua langkahnya kamu hafal. Tapi belum ada satu masakan pun yang jadi."
+          "narasi": "Seperti membaca buku resep dari sampul ke sampul, tanpa pernah menyalakan kompor. Semua langkahnya kamu hafal. Tapi belum ada satu masakan pun yang jadi. Hafal resep tidak sama dengan bisa memasak."
         },
         {
           "bagian": "action",
@@ -209,7 +237,11 @@
       "id": "v009",
       "judul": "Prompt Panjang Hasil Tetap Rata-Rata",
       "thumbnail": "Prompt Panjang, Hasil Biasa",
-      "keyword": ["prompt", "tujuan", "batasan"],
+      "keyword": [
+        "prompt",
+        "tujuan",
+        "batasan"
+      ],
       "cta": "Prompt terakhirmu menjelaskan tujuan, atau cuma menambah keterangan?",
       "segments": [
         {
@@ -225,7 +257,7 @@
         {
           "bagian": "analogi",
           "label": "ANALOGI",
-          "narasi": "Seperti memberi petunjuk arah yang panjang sekali, tapi lupa menyebut tujuan akhirnya. Kamu bicara banyak. Tapi tidak ada yang tahu harus berhenti di mana."
+          "narasi": "Seperti memberi petunjuk arah yang panjang sekali, tapi lupa menyebut tujuan akhirnya. Kamu bicara banyak. Tapi tidak ada yang tahu harus berhenti di mana. Arah yang jelas lebih penting daripada keterangan yang lengkap."
         },
         {
           "bagian": "action",
@@ -238,7 +270,11 @@
       "id": "v010",
       "judul": "Keputusan Yang Tidak Bisa Dibatalkan",
       "thumbnail": "Pintu Satu Arah",
-      "keyword": ["keputusan", "dibatalkan", "pintu"],
+      "keyword": [
+        "keputusan",
+        "dibatalkan",
+        "pintu"
+      ],
       "cta": "Keputusan apa yang kamu tunda padahal bisa diubah besok?",
       "segments": [
         {
@@ -249,12 +285,12 @@
         {
           "bagian": "insight",
           "label": "INSIGHT",
-          "narasi": "Sebagian keputusan bisa dibatalkan besok. Sebagian lagi mengunci pilihanmu berbulan-bulan. Energi berpikirmu terbatas, jadi hanya yang kedua yang layak dipikirkan lama."
+          "narasi": "Sebagian keputusan bisa dibatalkan besok. Sebagian lagi mengunci pilihanmu berbulan-bulan. Energi berpikirmu terbatas, jadi hanya yang kedua yang layak dipikirkan lama. Sisanya cukup diputuskan cepat."
         },
         {
           "bagian": "analogi",
           "label": "ANALOGI",
-          "narasi": "Memilih tempat makan bisa diubah kapan saja. Memilih pindah rumah tidak. Keduanya terasa seperti keputusan, tapi taruhannya jauh berbeda."
+          "narasi": "Memilih tempat makan bisa diubah kapan saja. Memilih pindah rumah tidak. Keduanya terasa seperti keputusan, tapi taruhannya jauh berbeda. Yang satu bisa kamu sesali sambil tetap jalan."
         },
         {
           "bagian": "action",

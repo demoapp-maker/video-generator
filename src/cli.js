@@ -54,6 +54,7 @@ Sistem produksi video pendek ${brand.handle} — ${brand.tagline}
   npm run script -- --idea v001          tulis script dari satu ide
   npm run voice -- v001 [--provider=...] hasilkan narasi TTS
   npm run host  -- v001 [--provider=...] siapkan visual host
+  npm run host  -- v003 --pose=mendengarkan   pakai variasi pose karakter
   npm run plan  -- v001                  ukur durasi & susun subtitle
   npm run render -- v001                 render mp4 lewat Remotion
   npm run produce -- v001                voice + host + plan + render
@@ -127,7 +128,7 @@ const perintahVoice = async () => {
 const perintahHost = async () => {
   const id = positional[0];
   if (!id) throw new Error("Sebutkan id video: npm run host -- v001");
-  const hasil = await generateHost({id, provider: flags.provider});
+  const hasil = await generateHost({id, provider: flags.provider, pose: typeof flags.pose === "string" ? flags.pose : undefined});
   console.log(`Host ${id}: ${path.relative(paths.root, hasil.file)} (provider: ${hasil.provider})`);
 };
 
@@ -165,6 +166,7 @@ const perintahProduce = async () => {
   await produceVideo(id, {
     tts: typeof flags.tts === "string" ? flags.tts : undefined,
     host: typeof flags.host === "string" ? flags.host : undefined,
+    pose: typeof flags.pose === "string" ? flags.pose : undefined,
     render: flags["no-render"] !== true,
     forceBundle: flags["force-bundle"] === true,
   });

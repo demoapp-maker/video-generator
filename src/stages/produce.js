@@ -16,7 +16,7 @@ import {tandaiStatus} from "./status.js";
 
 /**
  * @param {string} id
- * @param {{tts?: string, host?: string, render?: boolean, forceBundle?: boolean}} [options]
+ * @param {{tts?: string, host?: string, pose?: string, render?: boolean, forceBundle?: boolean}} [options]
  */
 export const produceVideo = async (id, options = {}) => {
   const scriptFile = path.join(paths.scripts, `${id}.json`);
@@ -29,7 +29,7 @@ export const produceVideo = async (id, options = {}) => {
 
   /* 1. VOICE */
   console.log(`\n[1/4] VOICE — menyiapkan ${script.segments.length} berkas narasi`);
-  const audio = await synthesize({id, segments: script.segments, provider: options.tts});
+  const audio = await synthesize({id, segments: script.segments, provider: options.tts, scriptFile});
   hasil.tts = {provider: audio[0]?.provider ?? options.tts, files: audio.length};
   if (hasil.tts.provider === "placeholder") {
     console.log("      Audio placeholder (untuk timing). Ganti dengan Pocket TTS sebelum unggah.");
@@ -37,7 +37,7 @@ export const produceVideo = async (id, options = {}) => {
 
   /* 2. HOST */
   console.log(`\n[2/4] HOST — menyiapkan visual pembicara`);
-  const host = await generateHost({id, provider: options.host});
+  const host = await generateHost({id, provider: options.host, pose: options.pose});
   hasil.host = {provider: host.provider, file: path.relative(paths.root, host.file)};
   if (host.isPlaceholder) {
     console.log("      Memakai latar studio placeholder. Buat host HyperFrame untuk hasil final.");

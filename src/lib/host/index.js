@@ -13,13 +13,38 @@
 import fs from "node:fs";
 import path from "node:path";
 import {brand, paths, runtime} from "../../config.js";
-import {ensureDir, exists, findFirst} from "../fsx.js";
+import {ensureDir, exists, findFirst, listFiles} from "../fsx.js";
 import {generateStudioBackground} from "./image.js";
 import {PROMPT_INTI} from "./prompt.js";
 
 export const HOST_EXT = [".mp4", ".webm", ".mov", ".png", ".jpg", ".jpeg", ".webp"];
 
 export const hostFileFor = (id) => findFirst(paths.host, HOST_EXT.map((ext) => `${id}${ext}`));
+
+export const poseDir = () => path.join(paths.host, "pose");
+
+/** Daftar pose yang tersedia di assets/host/pose/. */
+export const daftarPose = () =>
+  listFiles(poseDir())
+    .filter((f) => HOST_EXT.some((ext) => f.toLowerCase().endsWith(ext)))
+    .map((f) => path.basename(f, path.extname(f)));
+
+/**
+ * Menyalin satu pose dari assets/host/pose/<nama>.png ke assets/host/<id>.png.
+ * Dipakai supaya memilih pose jadi satu perintah, bukan urusan salin manual.
+ */
+export const pakaiPose = (id, pose) => {
+  const tersedia = daftarPose();
+  if (!tersedia.includes(pose)) {
+    throw new Error(
+      `Pose "${pose}" tidak ada. Tersedia: ${tersedia.join(", ") || "(belum ada berkas di assets/host/pose/)"}`,
+    );
+  }
+  const sumber = findFirst(poseDir(), HOST_EXT.map((ext) => `${pose}${ext}`));
+  const tujuan = path.join(paths.host, `${id}${path.extname(sumber)}`);
+  fs.copyFileSync(sumber, tujuan);
+  return tujuan;
+};
 
 export const studioBackgroundFile = () => path.join(paths.host, "studio-background.png");
 
@@ -31,7 +56,13 @@ export const ensureStudioBackground = () => {
 
 const manual = {
   name: "manual",
-  async generate({id}) {
+  async generate({id, pose}) {
+    // Pose dipilih lewat --pose=<nama>; berkasnya diambil dari assets/host/pose/.
+    if (pose) {
+      const file = pakaiPose(id, pose);
+      return {file, provider: `manual:${pose}`};
+    }
+
     const file = hostFileFor(id);
     if (file) return {file, provider: "manual"};
 
@@ -103,7 +134,7 @@ export const getHostProvider = (name) => {
   return provider;
 };
 
-export const generateHost = async ({id, provider}) => {
+export const generateHost = async ({id, provider, pose}) => {
   const chosen = provider ?? brand.host?.provider ?? "manual";
-  return getHostProvider(chosen).generate({id});
+  return getHostProvider(chosen).generate({id, pose});
 };

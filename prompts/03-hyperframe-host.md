@@ -44,6 +44,30 @@ Hasil ideal: **loop 8–20 detik** tanpa potongan kamera. Kalau lebih panjang, R
 3. Background studio tetap sama sepanjang satu musim. Ganti hanya kalau ada alasan jelas.
 4. Jangan pakai gaya photorealistic, jangan chibi, jangan bayangan yang berlebihan.
 
+## Variasi pose
+
+Satu karakter, tiga pose. Semuanya dibuat dari gambar referensi yang sama supaya wajah dan pakaiannya tidak berubah.
+
+| Pose | Berkas | Kapan dipakai |
+| --- | --- | --- |
+| Netral | `assets/host/pose/netral.png` | video bernarasi datar, tanpa ajakan kuat |
+| Menjelaskan | `assets/host/pose/menjelaskan.png` | video yang isinya analogi atau penjelasan teknis |
+| Mendengarkan | `assets/host/pose/mendengarkan.png` | video bergaya tanya-jawab, topik keputusan |
+| Menutup | `assets/host/pose/menutup.png` | video yang berakhir dengan ajakan bertindak |
+
+Cara memakainya:
+
+```bash
+npm run host -- v003 --pose=mendengarkan
+npm run produce -- v003 --pose=menjelaskan
+```
+
+Aturan rotasi supaya tidak monoton:
+
+1. Jangan pakai pose yang sama dua video berturut-turut.
+2. Pilih pose berdasarkan isi, bukan urutan. Video yang bertanya banyak memakai pose **mendengarkan**; video yang banyak menjelaskan memakai pose **menjelaskan**.
+3. Kalau hanya punya satu pose, pakai konsisten. Karakter yang konsisten lebih baik daripada pose yang berubah-ubah tanpa alasan.
+
 ## Checklist sebelum render
 
 - [ ] Wajah menghadap kamera, mata terlihat jelas

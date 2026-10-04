@@ -93,6 +93,15 @@ Dua mode didukung:
 
 Prompt host ada di `prompts/03-hyperframe-host.md`. Karakter harus identik di semua video; simpan referensinya di `assets/host/rohadi-reference.png`.
 
+Variasi pose disimpan di `assets/host/pose/` (satu berkas per pose, misalnya `menjelaskan.png`) dan dipilih lewat perintah:
+
+```bash
+npm run host -- v003 --pose=mendengarkan   # menyalin pose ke assets/host/v003.png
+npm run produce -- v003 --pose=menjelaskan  # sekaligus saat produksi
+```
+
+Aturan rotasi ada di `prompts/03-hyperframe-host.md`: jangan memakai pose yang sama dua video berturut-turut.
+
 ### 5. PLAN
 `npm run plan -- <id>` mengukur durasi tiap berkas audio, menyusun timeline, memecah narasi jadi potongan subtitle, dan memvalidasi durasi 30–45 detik.
 
