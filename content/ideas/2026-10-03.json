@@ -42,7 +42,7 @@
         "Data"
       ],
       "evergreen": true,
-      "status": "scripted"
+      "status": "produced"
     },
     {
       "id": "v004",

@@ -1,0 +1,260 @@
+{
+  "id": "v003",
+  "judul": "Otomatisasi Sebelum Rapi",
+  "handle": "@rohadi",
+  "tagline": "Catatan belajar teknologi",
+  "thumbnail": "Jangan Otomatiskan Kekacauan",
+  "cta": "Proses mana yang kamu otomatiskan sebelum benar-benar paham?",
+  "keywords": [
+    "otomatisasi",
+    "proses",
+    "rapi"
+  ],
+  "host": {
+    "type": "image",
+    "src": "host/v003.png"
+  },
+  "captions": [
+    {
+      "from": 0,
+      "to": 56,
+      "text": "Banyak orang mengotomatiskan proses",
+      "lines": [
+        "Banyak orang",
+        "mengotomatiskan proses"
+      ],
+      "segment": 0,
+      "keyword": true
+    },
+    {
+      "from": 56,
+      "to": 106,
+      "text": "yang bahkan belum mereka pahami.",
+      "lines": [
+        "yang bahkan belum mereka",
+        "pahami."
+      ],
+      "segment": 0,
+      "keyword": false
+    },
+    {
+      "from": 115,
+      "to": 183,
+      "text": "Automasi mempercepat apa pun yang ada.",
+      "lines": [
+        "Automasi mempercepat apa",
+        "pun yang ada."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 183,
+      "to": 223,
+      "text": "Termasuk kekacauannya.",
+      "lines": [
+        "Termasuk kekacauannya."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 223,
+      "to": 316,
+      "text": "Yang tadinya salah sekali sehari, jadi salah seratus",
+      "lines": [
+        "Yang tadinya salah sekali",
+        "sehari, jadi salah seratus"
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 316,
+      "to": 338,
+      "text": "kali sehari.",
+      "lines": [
+        "kali sehari."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 338,
+      "to": 419,
+      "text": "Dan kamu tidak akan menyadarinya lebih cepat.",
+      "lines": [
+        "Dan kamu tidak akan",
+        "menyadarinya lebih cepat."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 427,
+      "to": 505,
+      "text": "Mengotomatiskan proses yang belum rapi itu",
+      "lines": [
+        "Mengotomatiskan proses",
+        "yang belum rapi itu"
+      ],
+      "segment": 2,
+      "keyword": true
+    },
+    {
+      "from": 505,
+      "to": 587,
+      "text": "seperti memberi remote ke televisi yang belum",
+      "lines": [
+        "seperti memberi remote ke",
+        "televisi yang belum"
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 587,
+      "to": 604,
+      "text": "dipasang.",
+      "lines": [
+        "dipasang."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 604,
+      "to": 640,
+      "text": "Tombolnya berfungsi.",
+      "lines": [
+        "Tombolnya berfungsi."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 640,
+      "to": 703,
+      "text": "Tapi tidak ada yang bisa ditonton.",
+      "lines": [
+        "Tapi tidak ada yang bisa",
+        "ditonton."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 703,
+      "to": 765,
+      "text": "Kamu cuma jadi lebih cepat kecewa.",
+      "lines": [
+        "Kamu cuma jadi lebih cepat",
+        "kecewa."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 773,
+      "to": 821,
+      "text": "Tulis dulu langkah manualnya.",
+      "lines": [
+        "Tulis dulu langkah",
+        "manualnya."
+      ],
+      "segment": 3,
+      "keyword": false
+    },
+    {
+      "from": 821,
+      "to": 889,
+      "text": "Baru otomatiskan satu langkah yang paling",
+      "lines": [
+        "Baru otomatiskan satu",
+        "langkah yang paling"
+      ],
+      "segment": 3,
+      "keyword": false
+    },
+    {
+      "from": 889,
+      "to": 909,
+      "text": "membosankan.",
+      "lines": [
+        "membosankan."
+      ],
+      "segment": 3,
+      "keyword": false
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "bagian": "hook",
+      "label": "HOOK",
+      "from": 0,
+      "to": 106,
+      "audio": "audio/v003/s1.wav",
+      "narration": "Banyak orang mengotomatiskan proses yang bahkan belum mereka pahami."
+    },
+    {
+      "index": 1,
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "from": 115,
+      "to": 419,
+      "audio": "audio/v003/s2.wav",
+      "narration": "Automasi mempercepat apa pun yang ada. Termasuk kekacauannya. Yang tadinya salah sekali sehari, jadi salah seratus kali sehari. Dan kamu tidak akan menyadarinya lebih cepat."
+    },
+    {
+      "index": 2,
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "from": 427,
+      "to": 765,
+      "audio": "audio/v003/s3.wav",
+      "narration": "Mengotomatiskan proses yang belum rapi itu seperti memberi remote ke televisi yang belum dipasang. Tombolnya berfungsi. Tapi tidak ada yang bisa ditonton. Kamu cuma jadi lebih cepat kecewa."
+    },
+    {
+      "index": 3,
+      "bagian": "action",
+      "label": "AKSI",
+      "from": 773,
+      "to": 909,
+      "audio": "audio/v003/s4.wav",
+      "narration": "Tulis dulu langkah manualnya. Baru otomatiskan satu langkah yang paling membosankan."
+    }
+  ],
+  "audio": [
+    {
+      "src": "audio/v003/s1.wav",
+      "from": 0,
+      "durationInFrames": 106
+    },
+    {
+      "src": "audio/v003/s2.wav",
+      "from": 115,
+      "durationInFrames": 304
+    },
+    {
+      "src": "audio/v003/s3.wav",
+      "from": 427,
+      "durationInFrames": 337
+    },
+    {
+      "src": "audio/v003/s4.wav",
+      "from": 773,
+      "durationInFrames": 135
+    }
+  ],
+  "totalFrames": 951,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": {
+    "accent": "#F2B441",
+    "accentSoft": "rgba(242,180,65,0.16)",
+    "ink": "#0E0F13",
+    "paper": "#F7F4EE"
+  }
+}
