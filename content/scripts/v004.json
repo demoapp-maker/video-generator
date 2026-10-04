@@ -1,0 +1,33 @@
+{
+  "id": "v004",
+  "judul": "Kapan Berhenti Menambah Alat",
+  "thumbnail": "Berhenti Menambah Alat",
+  "keyword": [
+    "alat",
+    "perawatan",
+    "keputusan"
+  ],
+  "cta": "Alat mana yang kamu simpan hanya karena sayang?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Menambah alat baru selalu terasa seperti kemajuan."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Setiap alat baru menambah biaya perawatan. Dan biaya itu jarang dihitung di awal. Akhirnya waktu habis untuk menjaga alat, bukan memakainya."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Seperti menyimpan tiga puluh bumbu di dapur. Yang benar-benar dipakai cuma lima. Sisanya menghabiskan ruang, dan kadang sudah kedaluwarsa."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Hentikan satu alat yang jarang kamu buka bulan ini. Pindahkan datanya ke tempat yang kamu pakai tiap hari."
+    }
+  ]
+}

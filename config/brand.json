@@ -1,0 +1,40 @@
+{
+  "handle": "@rohadi",
+  "tagline": "Catatan belajar teknologi",
+  "brand": {
+    "accent": "#F2B441",
+    "accentSoft": "rgba(242,180,65,0.16)",
+    "ink": "#0E0F13",
+    "paper": "#F7F4EE"
+  },
+  "video": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "maxDurationDetik": 45,
+    "minDurationDetik": 30,
+    "endCardDetik": 2.2
+  },
+  "caption": {
+    "maxKarakterPerBaris": 26,
+    "maxBaris": 2
+  },
+  "tts": {
+    "provider": "placeholder",
+    "kataSpeakPerDetik": 2.7,
+    "instruksi": "Bicara tenang, jelas, seperti menjelaskan ke satu orang. Kecepatan sedang, tanpa drama.",
+    "pocket": {
+      "command": "python -m pocket_tts.generate --text {text} --output {output}",
+      "voice": "rohadi-id"
+    }
+  },
+  "host": {
+    "provider": "manual",
+    "mode": "still",
+    "reference": "assets/host/rohadi-reference.png",
+    "image": {
+      "model": "gpt-image-1",
+      "size": "1024x1536"
+    }
+  }
+}

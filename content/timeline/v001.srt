@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:03,070
+Banyak orang belajar AI setiap hari, tapi tetap
+
+2
+00:00:03,070 --> 00:00:05,030
+bingung harus mulai dari mana.
+
+3
+00:00:05,310 --> 00:00:07,098
+Masalahnya bukan kurang materi.
+
+4
+00:00:07,098 --> 00:00:10,098
+Masalahnya, belum ada satu masalah nyata yang sedang
+
+5
+00:00:10,098 --> 00:00:11,310
+kamu coba selesaikan.
+
+6
+00:00:11,590 --> 00:00:14,637
+Belajar AI tanpa tujuan itu seperti membeli banyak
+
+7
+00:00:14,637 --> 00:00:17,440
+alat pertukangan tanpa tahu mau membangun apa.
+
+8
+00:00:17,440 --> 00:00:19,573
+Gergaji, bor, palu, semuanya bagus.
+
+9
+00:00:19,573 --> 00:00:22,620
+Tapi tanpa rencana, itu cuma jadi tumpukan barang.
+
+10
+00:00:22,900 --> 00:00:24,306
+Mulai dari sebaliknya.
+
+11
+00:00:24,306 --> 00:00:27,439
+Pilih satu masalah yang kamu ulang setiap minggu,
+
+12
+00:00:27,439 --> 00:00:30,380
+lalu cari satu alat AI yang memotong waktunya.

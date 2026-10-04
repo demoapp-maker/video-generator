@@ -1,0 +1,33 @@
+{
+  "id": "v009",
+  "judul": "Prompt Panjang Hasil Tetap Rata-Rata",
+  "thumbnail": "Prompt Panjang, Hasil Biasa",
+  "keyword": [
+    "prompt",
+    "tujuan",
+    "batasan"
+  ],
+  "cta": "Prompt terakhirmu menjelaskan tujuan, atau cuma menambah keterangan?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Menambah panjang prompt tidak otomatis menambah kualitas jawaban."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Panjang konteks tidak bisa menggantikan kejelasan tujuan dan bentuk jawaban yang diinginkan. Satu kalimat yang jelas lebih berguna daripada satu paragraf yang kabur."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Seperti memberi petunjuk arah yang panjang sekali, tapi lupa menyebut tujuan akhirnya. Kamu bicara banyak. Tapi tidak ada yang tahu harus berhenti di mana."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Tulis tiga hal sebelum mengirim prompt. Tujuan, batasan, dan contoh bentuk jawaban yang kamu mau."
+    }
+  ]
+}

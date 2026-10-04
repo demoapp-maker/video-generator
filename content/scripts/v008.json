@@ -1,0 +1,33 @@
+{
+  "id": "v008",
+  "judul": "Kursus Baru Bukan Selalu Jawaban",
+  "thumbnail": "Kursus Bukan Selalu Jawaban",
+  "keyword": [
+    "praktik",
+    "kursus",
+    "materi"
+  ],
+  "cta": "Materi apa yang sudah ditonton tapi belum pernah dikerjakan?",
+  "segments": [
+    {
+      "bagian": "hook",
+      "label": "HOOK",
+      "narasi": "Membeli kursus baru terasa seperti langkah besar. Padahal belum tentu."
+    },
+    {
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "narasi": "Menonton materi bisa menggantikan praktik tanpa terasa. Karena sama-sama melelahkan. Bedanya, satu meninggalkan kemampuan, satu lagi meninggalkan catatan."
+    },
+    {
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "narasi": "Seperti membaca buku resep dari sampul ke sampul, tanpa pernah menyalakan kompor. Semua langkahnya kamu hafal. Tapi belum ada satu masakan pun yang jadi."
+    },
+    {
+      "bagian": "action",
+      "label": "AKSI",
+      "narasi": "Satu jam praktik sebelum satu jam menonton. Kerjakan dulu, baru cari materi di bagian yang macet."
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "v001",
+  "judul": "Belajar AI Tanpa Tujuan",
+  "handle": "@rohadi",
+  "tagline": "Catatan belajar teknologi",
+  "thumbnail": "Belajar AI Tanpa Tujuan",
+  "cta": "Minggu ini, masalah apa yang paling sering kamu ulang?",
+  "keywords": [
+    "AI",
+    "tujuan",
+    "alat"
+  ],
+  "host": {
+    "type": "image",
+    "src": "host/v001.png"
+  },
+  "captions": [
+    {
+      "from": 0,
+      "to": 92,
+      "text": "Banyak orang belajar AI setiap hari, tapi tetap",
+      "lines": [
+        "Banyak orang belajar AI",
+        "setiap hari, tapi tetap"
+      ],
+      "segment": 0,
+      "keyword": true
+    },
+    {
+      "from": 92,
+      "to": 151,
+      "text": "bingung harus mulai dari mana.",
+      "lines": [
+        "bingung harus mulai dari",
+        "mana."
+      ],
+      "segment": 0,
+      "keyword": false
+    },
+    {
+      "from": 159,
+      "to": 213,
+      "text": "Masalahnya bukan kurang materi.",
+      "lines": [
+        "Masalahnya bukan kurang",
+        "materi."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 213,
+      "to": 303,
+      "text": "Masalahnya, belum ada satu masalah nyata yang sedang",
+      "lines": [
+        "Masalahnya, belum ada satu",
+        "masalah nyata yang sedang"
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 303,
+      "to": 339,
+      "text": "kamu coba selesaikan.",
+      "lines": [
+        "kamu coba selesaikan."
+      ],
+      "segment": 1,
+      "keyword": false
+    },
+    {
+      "from": 348,
+      "to": 439,
+      "text": "Belajar AI tanpa tujuan itu seperti membeli banyak",
+      "lines": [
+        "Belajar AI tanpa tujuan",
+        "itu seperti membeli banyak"
+      ],
+      "segment": 2,
+      "keyword": true
+    },
+    {
+      "from": 439,
+      "to": 523,
+      "text": "alat pertukangan tanpa tahu mau membangun apa.",
+      "lines": [
+        "alat pertukangan tanpa",
+        "tahu mau membangun apa."
+      ],
+      "segment": 2,
+      "keyword": true
+    },
+    {
+      "from": 523,
+      "to": 587,
+      "text": "Gergaji, bor, palu, semuanya bagus.",
+      "lines": [
+        "Gergaji, bor, palu,",
+        "semuanya bagus."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 587,
+      "to": 679,
+      "text": "Tapi tanpa rencana, itu cuma jadi tumpukan barang.",
+      "lines": [
+        "Tapi tanpa rencana, itu",
+        "cuma jadi tumpukan barang."
+      ],
+      "segment": 2,
+      "keyword": false
+    },
+    {
+      "from": 687,
+      "to": 729,
+      "text": "Mulai dari sebaliknya.",
+      "lines": [
+        "Mulai dari sebaliknya."
+      ],
+      "segment": 3,
+      "keyword": false
+    },
+    {
+      "from": 729,
+      "to": 823,
+      "text": "Pilih satu masalah yang kamu ulang setiap minggu,",
+      "lines": [
+        "Pilih satu masalah yang",
+        "kamu ulang setiap minggu,"
+      ],
+      "segment": 3,
+      "keyword": false
+    },
+    {
+      "from": 823,
+      "to": 911,
+      "text": "lalu cari satu alat AI yang memotong waktunya.",
+      "lines": [
+        "lalu cari satu alat AI",
+        "yang memotong waktunya."
+      ],
+      "segment": 3,
+      "keyword": true
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "bagian": "hook",
+      "label": "HOOK",
+      "from": 0,
+      "to": 151,
+      "audio": "audio/v001/s1.wav",
+      "narration": "Banyak orang belajar AI setiap hari, tapi tetap bingung harus mulai dari mana."
+    },
+    {
+      "index": 1,
+      "bagian": "insight",
+      "label": "INSIGHT",
+      "from": 159,
+      "to": 339,
+      "audio": "audio/v001/s2.wav",
+      "narration": "Masalahnya bukan kurang materi. Masalahnya, belum ada satu masalah nyata yang sedang kamu coba selesaikan."
+    },
+    {
+      "index": 2,
+      "bagian": "analogi",
+      "label": "ANALOGI",
+      "from": 348,
+      "to": 679,
+      "audio": "audio/v001/s3.wav",
+      "narration": "Belajar AI tanpa tujuan itu seperti membeli banyak alat pertukangan tanpa tahu mau membangun apa. Gergaji, bor, palu, semuanya bagus. Tapi tanpa rencana, itu cuma jadi tumpukan barang."
+    },
+    {
+      "index": 3,
+      "bagian": "action",
+      "label": "AKSI",
+      "from": 687,
+      "to": 911,
+      "audio": "audio/v001/s4.wav",
+      "narration": "Mulai dari sebaliknya. Pilih satu masalah yang kamu ulang setiap minggu, lalu cari satu alat AI yang memotong waktunya."
+    }
+  ],
+  "audio": [
+    {
+      "src": "audio/v001/s1.wav",
+      "from": 0,
+      "durationInFrames": 151
+    },
+    {
+      "src": "audio/v001/s2.wav",
+      "from": 159,
+      "durationInFrames": 180
+    },
+    {
+      "src": "audio/v001/s3.wav",
+      "from": 348,
+      "durationInFrames": 331
+    },
+    {
+      "src": "audio/v001/s4.wav",
+      "from": 687,
+      "durationInFrames": 224
+    }
+  ],
+  "totalFrames": 953,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": {
+    "accent": "#F2B441",
+    "accentSoft": "rgba(242,180,65,0.16)",
+    "ink": "#0E0F13",
+    "paper": "#F7F4EE"
+  }
+}
